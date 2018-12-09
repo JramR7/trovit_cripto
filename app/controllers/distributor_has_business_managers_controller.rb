@@ -1,0 +1,2 @@
+class DistributorHasBusinessManagersController < ApplicationController
+end

@@ -1,0 +1,30 @@
+<head>
+  <style type="text/css" media="screen">
+    h4, h2 {
+       color: #0042FF;
+     }
+    div, ul{
+      color: #00081F;
+    }
+  </style>
+</head>
+<body>
+  <h2>Product created!</h2>
+
+  <div>
+    <p>
+      <%= @greeting %> <%= @user.name %>, 
+      the product <%= @product.productName %> has been succesfully created,
+    </p>
+  </div>
+
+  <h4> Here's the full information of your product:</h4>
+  <ul>
+    <li>Product name: <%= @product.productName %></li>
+    <li>Brand: <%= @product.brand %></li>
+    <li>Quantity: <%= @product.quantity %></li>
+    <li>Price: <%= @product.price %></li>
+  </ul>
+
+  <h4>Any inconvinient let us now at Trovit.com</h4>
+<body>

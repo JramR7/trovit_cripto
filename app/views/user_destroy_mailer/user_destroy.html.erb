@@ -1,0 +1,32 @@
+<head>
+  <style type="text/css" media="screen">
+    h4, h2 {
+       color: #C73833;
+     }
+    div, ul{
+      color: #240A09;
+    }
+  </style>
+</head>
+<body>
+  <h2>Account deleted! =C</h2>
+
+  <div>
+    <p>
+      <%= @greeting %> <%= @user.name %>, 
+      Your account registered with the email <%= @user.email %> 
+      has been succesfully deleted,
+    </p>
+  </div>
+
+  <h4> Here's the full information of your deleted account:</h4>
+  <ul>
+    <li>Name: <%= @user.name %></li>
+    <li>Phone: <%= @user.phone %></li>
+    <li>Email: <%= @user.email %></li>
+    <li>Location: <%= @user.location %></li>
+    <li>User type: <%= @user.userType%></li>
+  </ul>
+
+  <h4>Any inconvinient let us now at Trovit.com</h4>
+<body>

@@ -1,0 +1,30 @@
+<head>
+  <style type="text/css" media="screen">
+    h4, h2 {
+       color: #0042FF;
+     }
+    div, ul{
+      color: #00081F;
+    }
+  </style>
+</head>
+<body>
+  <h2>Account created! =D</h2>
+
+  Welcome <%= @user.name %>, 
+      Your account registered with the email <%= @user.email %> 
+      has been succesfully created,
+    </p>
+  </div>
+
+  <h4> Here's the full information of your created account:</h4>
+  <ul>
+    <li>Name: <%= @user.name %></li>
+    <li>Phone: <%= @user.phone %></li>
+    <li>Email: <%= @user.email %></li>
+    <li>Location: <%= @user.location %></li>
+    <li>User type: <%= @user.userType%></li>
+  </ul>
+
+  <h4>Trovit.com</h4>
+<body>
